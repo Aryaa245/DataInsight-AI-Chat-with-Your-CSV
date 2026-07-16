@@ -63,18 +63,16 @@ The application combines data processing, visualization, and AI-driven analysis 
 ## Project Structure
 
 ```text
-DataInsightAI/
-│
-├── app.py
-├── requirements.txt
-├── data/
-├── assets/
+datainsight-ai/
+├── app.py                 # Streamlit main
+├── core/
+│   ├── data_loader.py      # baca & validasi CSV
+│   ├── llm_agent.py        # prompt engineering + call LLM
+│   ├── executor.py         # eksekusi kode aman (sandbox)
+│   └── eda.py               # auto EDA logic
 ├── utils/
-│   ├── analysis.py
-│   ├── visualization.py
-│   └── insights.py
-│
-└── README.md
+│   └── chart_generator.py
+└── requirements.txt
 ```
 
 ## Installation
