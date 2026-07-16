@@ -1,6 +1,3 @@
-# DataInsight-AI-Chat-with-Your-CSV
-Chat with your data. DataInsight AI allows users to upload CSV files, explore datasets through conversational AI, generate charts, detect trends, and uncover valuable insights without writing code.
-
 # DataInsight AI – Chat with Your CSV
 
 DataInsight AI is an AI-powered chatbot that enables users to analyze CSV datasets using natural language. Users can upload a CSV file, ask questions about the data, generate visualizations, and receive automated insights without writing code.
